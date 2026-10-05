@@ -1,0 +1,22 @@
+# ==============================================================================
+# .gitignore - Quản lý tệp tin bỏ qua
+# Học viên: Hoàng Thiện Sơn (Boizi-06)
+# ==============================================================================
+
+# 1. Bỏ qua tệp tin chứa thông tin nhạy cảm / bí mật
+credentials.txt
+*.env
+*.pem
+secrets/
+
+# 2. Bỏ qua file rác và cache hệ điều hành
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 3. Bỏ qua cache ngôn ngữ lập trình (Python / Node)
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
